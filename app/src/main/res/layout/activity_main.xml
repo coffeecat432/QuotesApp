@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="전체명언보기"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- layout_constraintEnd_toEndOf와 버튼 끝단의 둥근색 버튼을 끌어 당겨서 버튼 전체를 오른쪽 끝으로 붙이면 생긴다.
+    layout_constraintEnd_toTopOf도 버튼 위쪽의 둥근색 버튼을 끌어 당겨서 버튼 전체를 위쪽으로 붙이면 생긴다.-->
+    <!-- Button 생성시 버튼의 위치가 어디있어야 하는지를 상대적으로 결정해줘야한다. 한 그러면 빨간줄이 생긴다.-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
